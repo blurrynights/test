@@ -1,0 +1,22 @@
+{
+  "name": "sales-operating-system",
+  "version": "3.2.1-sales-pro",
+  "description": "Sales Operating System — AI Command Centre clone",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "sales-os",
+    "ai-agents",
+    "command-centre",
+    "threejs",
+    "three-dimensional-office",
+    "composio",
+    "shopify"
+  ],
+  "author": "",
+  "license": "ISC"
+}

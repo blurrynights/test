@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/tasks/:id/run", "destination": "/api/tasks?id=:id&action=run" },
+    { "source": "/api/tasks/:id/revise", "destination": "/api/tasks?id=:id&action=revise" },
+    { "source": "/api/tasks/:id", "destination": "/api/tasks?id=:id" },
+    { "source": "/api/routines/:id", "destination": "/api/routines?id=:id" },
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
